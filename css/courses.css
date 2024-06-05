@@ -1,0 +1,138 @@
+body {padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+background-image: url(../Assets/wallpaperflare.com_wallpaper.jpg);
+}
+header {
+display: flex;
+align-items: center;
+background: linear-gradient(to left, #be8a5e, #8B5D33); 
+border-top: solid 2px rgb(124, 103, 103);
+border-right: solid 2px rgb(124, 103, 103);
+border-left: solid 2px rgb(124, 103, 103);;
+}
+
+a { 
+display: inline;
+color: #ffedbc;
+font-size: 30px;
+position:relative; 
+top:20px;
+right: 250px;
+ }
+h1 { 
+display: inline;
+color: #ffedbc;
+font-size: 40px;
+position:relative; 
+bottom:15px;
+}
+
+h2 {
+display:inline;
+position: relative; 
+bottom: 20px; 
+font-size: 65px;
+color: #ffedbc;
+}
+.footer{display:block}
+
+.courses1 {
+display: flex;
+justify-content: center; 
+align-items: left; 
+flex-direction: column;
+} 
+.img1 { 
+height: 300px;
+width: 450px;
+display: flex;
+position: absolute;
+left: 550px;
+top: 250px;
+border: 3px solid #3f3e3d;
+}
+
+.img2 { 
+height: 300px;
+width: 450px;
+display: flex;
+position: absolute;
+left: 650px;
+top: 450px;
+border: 3px solid #3f3e3d;}
+
+.img3 { 
+height: 300px;
+width: 450px;
+display: flex;
+position: absolute;
+left: 850px;
+top: 650px;
+border: 3px solid #3f3e3d;}
+
+.img4 { 
+height: 300px;
+width: 450px;
+display: flex;
+position: absolute;
+left: 1050px;
+top: 850px;
+border: 3px solid #3f3e3d;
+}
+
+h1{
+text-align: center;
+width: 250px;
+font-size:  25px; 
+font-weight: 800; 
+color: #f9bc60; 
+border: solid 2px #f9bc60;
+background-color: #3f3e3d;}
+
+.courses1 p  {
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center; 
+width: 500px;
+background-color: #be8a5e;} 
+
+.div2{display: flex;
+flex-direction: row;
+text-align: center;
+align-items: center;
+width: 250px;
+height: 200px;
+}    
+
+.enrolmenth1{
+font-size:  25px; 
+font-weight: 800; 
+color: #f9bc60; 
+border: solid 2px #f9bc60;
+background-color: #3f3e3d;
+left: 1400px;
+top: -1700px;
+}
+  
+.enrolmentsection {
+display: flex;
+font-size:  25px; 
+font-weight: 800; 
+position: relative;
+text-align: center;
+bottom: 1720px;
+left:1425px;
+padding-bottom: 10px;
+border-bottom: 10px;
+}
+
+form {
+   
+    color: #f9bc60; 
+    border: solid 2px #f9bc60;
+    background-color: #3f3e3d;
+    }
+
+

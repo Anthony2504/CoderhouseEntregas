@@ -1,0 +1,61 @@
+body {padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+background-image: url(../Assets/people\ in\ contact.jpg)}
+
+
+header {
+display: flex;
+align-items: center;
+background: linear-gradient(to left, #be8a5e, #8B5D33); 
+border-top: solid 2px rgb(124, 103, 103);
+border-right: solid 2px rgb(124, 103, 103);
+border-left: solid 2px rgb(124, 103, 103);;
+}
+
+.linkk1{ 
+    display: inline;
+        color: #ffedbc;
+        font-size: 30px;
+        position:relative; 
+        top: 30px;
+        right: 130px;    
+    }
+
+h1 { 
+    background-color: #8B5D33;
+display:flex;
+color: #ffedbc;
+font-size: 40px;
+justify-content: center; 
+top:15px;
+}
+table {
+    display: flex;
+   position: absolute;
+   justify-content: center;
+   top: 180px;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #8B5D33;
+}
+th, td {
+    border: 3px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+th {
+    background-color: #8B5D33;
+}
+h2 {
+display:inline;
+position: relative; 
+bottom: 20px; 
+font-size: 65px;
+color: #ffedbc;
+}
+.footer {
+    display: block;
+    position: absolute;
+    top: 1550px;
+}

@@ -1,0 +1,90 @@
+body {padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+background-image: url(../Assets/wallpaperflare.com_wallpaper.jpg);
+}
+header {
+background: linear-gradient(to left, #be8a5e, #8B5D33); 
+border-top: solid 2px rgb(124, 103, 103);
+border-right: solid 2px rgb(124, 103, 103);
+border-left: solid 2px rgb(124, 103, 103);;
+}
+h1 { 
+display: inline;
+color: #ffedbc;
+font-size: 40px;
+position:relative; 
+bottom:15px;
+}
+.imagen1 {
+width: 110px; padding: 0;
+margin: 0;
+box-sizing: content-box;
+border: 2px solid #ffedbc;
+}
+.link{
+position: relative; 
+left: 700px; 
+bottom: 50px; 
+font-size:  25px; 
+font-weight: 800; 
+color: #f9bc60; 
+border: solid 2px #f9bc60;
+background-color: #3f3e3d;
+}
+.section1 {
+    background: linear-gradient(to left, #be8a5e, #8B5D33 );
+}
+.section2{
+display: flex; 
+position: relative; 
+left:  550px ;
+}
+h2 {
+display:inline;
+position: relative; 
+bottom: 20px; 
+font-size: 65px;
+color: #ffedbc;
+}
+.imagen2{
+position:relative; 
+bottom: 7px; 
+left: 250px;
+}
+#boton1{ 
+display: inline;
+margin-left: 850px;
+position:relative; 
+bottom: 50px;
+font-size: 20px;
+}
+.section3 {
+ display:flex; 
+position: relative; 
+align-items: center;
+border: double 5px #f9bc60;
+}
+.imagensection3{
+display: flex;
+position: relative; 
+left: 55px;
+}
+.section4 {
+display:flex; 
+border-top: solid 1px #f9bc60;
+border-left: double 5px #f9bc60;
+border-bottom: double 5px #f9bc60;
+border-right: double 5px #f9bc60;
+}
+.link2 {
+display: flex; 
+position: relative; 
+left: 500px;
+font-size:  25px; 
+font-weight: 800; 
+color: #f9bc60; 
+border: solid 2px #f9bc60;
+background-color: #3f3e3d;
+}
+.footer{display:block}
