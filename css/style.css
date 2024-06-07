@@ -5,7 +5,7 @@ background-image: url(../Assets/wallpaperflare.com_wallpaper.jpg);
 }
 header {
 display:grid;
-grid-template-columns: 1fr;
+grid-template-columns: 1fr 1fr 1fr;
 grid-template-rows: 1fr;
 background: linear-gradient(to left, #be8a5e, #8B5D33); 
 border-top: solid 2px rgb(124, 103, 103);
@@ -23,29 +23,37 @@ position:relative;
 bottom:15px;
 }
 .imagen1 {
-justify-self: center;
+justify-self: left;
+align-self: center;
 width: 400px;
 margin-top: 20px;
+margin-bottom: 20px;
 box-sizing: content-box;
 border: 2px solid #ffedbc;
+grid-column: 1;
 }
-.div1{
-display: inline;
-align-self:right;
-justify-self:center;
-padding: 1px 1px 1px 1px;
-border: 0px;
+.link1 {
+margin: 1px 3px;
+font-size: 30px;
+ color: #f9bc60; 
+ background-color: #3f3e3d;
 }
 .link1:hover {background-color: #0a0a0a;}
-.link2:hover {background-color: #0a0a0a;}
 
-.link1 {
-margin: 15px 30px;
-font-size: 35px;
-color: #f9bc60; 
-border: solid 2px #f9bc60;
-background-color: #3f3e3d;    
+ul {
+justify-self:end ;
+padding: 1px 1px 1px 1px;
+grid-column: 3;
+grid-row: 1;   
 }
+.boton1 {
+    width: 300px;
+    height: 100px;
+    background-color: #ffedbc;
+    font-size: 30px;
+    align-self: center;
+    justify-self: center;
+    grid column:2;}
 
 .section1 {
     background: linear-gradient(to left, #be8a5e, #8B5D33 );
@@ -102,7 +110,9 @@ color: #f9bc60;
 border: solid 2px #f9bc60;
 background-color: #3f3e3d;
 }
-.link2:hover {background-color: #0a0a0a;}
+.link2:hover {
+    background-color: #0a0a0a;
+}
 .footer{
     display:flex;
     flex-direction: column;
