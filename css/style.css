@@ -28,6 +28,7 @@ align-self: center;
 width: 400px;
 margin-top: 20px;
 margin-bottom: 20px;
+margin-left: 20px;
 box-sizing: content-box;
 border: 2px solid #ffedbc;
 grid-column: 1;
