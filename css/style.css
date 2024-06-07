@@ -4,11 +4,17 @@ body {padding: 0;
 background-image: url(../Assets/wallpaperflare.com_wallpaper.jpg);
 }
 header {
+display:grid;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr;
 background: linear-gradient(to left, #be8a5e, #8B5D33); 
 border-top: solid 2px rgb(124, 103, 103);
 border-right: solid 2px rgb(124, 103, 103);
 border-left: solid 2px rgb(124, 103, 103);;
+background-image: url(../Assets/sunrise-ocean-morning-sea.jpg);
+background-size: cover;
 }
+
 h1 { 
 display: inline;
 color: #ffedbc;
@@ -17,28 +23,36 @@ position:relative;
 bottom:15px;
 }
 .imagen1 {
-width: 110px; padding: 0;
-margin: 0;
+justify-self: center;
+width: 400px;
+margin-top: 20px;
 box-sizing: content-box;
 border: 2px solid #ffedbc;
 }
-.link{
-position: relative; 
-left: 700px; 
-bottom: 50px; 
-font-size:  25px; 
-font-weight: 800; 
+.div1{
+display: inline;
+align-self:right;
+justify-self:center;
+padding: 1px 1px 1px 1px;
+border: 0px;
+}
+.link1:hover {background-color: #0a0a0a;}
+.link2:hover {background-color: #0a0a0a;}
+
+.link1 {
+margin: 15px 30px;
+font-size: 35px;
 color: #f9bc60; 
 border: solid 2px #f9bc60;
-background-color: #3f3e3d;
+background-color: #3f3e3d;    
 }
+
 .section1 {
     background: linear-gradient(to left, #be8a5e, #8B5D33 );
 }
 .section2{
 display: flex; 
-position: relative; 
-left:  550px ;
+justify-content: center ;
 }
 h2 {
 display:inline;
@@ -46,11 +60,6 @@ position: relative;
 bottom: 20px; 
 font-size: 65px;
 color: #ffedbc;
-}
-.imagen2{
-position:relative; 
-bottom: 7px; 
-left: 250px;
 }
 #boton1{ 
 display: inline;
@@ -67,11 +76,16 @@ border: double 5px #f9bc60;
 }
 .imagensection3{
 display: flex;
-position: relative; 
-left: 55px;
+flex-direction: row;
+align-items: center;
+margin-left: 15px;
+margin-right: 15px;
+border: 1px;
 }
 .section4 {
 display:flex; 
+margin: 5px 5px;
+justify-content: center;
 border-top: solid 1px #f9bc60;
 border-left: double 5px #f9bc60;
 border-bottom: double 5px #f9bc60;
@@ -80,11 +94,18 @@ border-right: double 5px #f9bc60;
 .link2 {
 display: flex; 
 position: relative; 
-left: 500px;
+margin-left: 5px;
+margin-right: 5px;
 font-size:  25px; 
 font-weight: 800; 
 color: #f9bc60; 
 border: solid 2px #f9bc60;
 background-color: #3f3e3d;
 }
-.footer{display:block}
+.link2:hover {background-color: #0a0a0a;}
+.footer{
+    display:flex;
+    flex-direction: column;
+align-items: center;}
+.footerbrand {margin-top: 2px;
+margin-bottom: 2px;}
