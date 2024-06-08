@@ -2,31 +2,48 @@ body {padding: 0;
     margin: 0;
     box-sizing: border-box;  
 background-image: url(../Assets/wallpaperflare.com_wallpaper.jpg);
+background-size: cover;
 }
 header {
-    display: flex;
-    align-items: center;
+display: flex;
+flex-direction: column;
+align-items: center;
 background: linear-gradient(to left, #be8a5e, #8B5D33); 
 border-top: solid 2px rgb(124, 103, 103);
 border-right: solid 2px rgb(124, 103, 103);
 border-left: solid 2px rgb(124, 103, 103);;
 }
 
-a { 
-    display: inline;
-    color: #ffedbc;
+.back {
+    margin: 1px 3px;
     font-size: 30px;
-    position:relative; 
-    top:20px;
-    right: 250px;
-    }
-h1 { 
+    color: #f9bc60; 
+    background-color: #3f3e3d
+}
+.section1 {display: flex;
+    flex-direction: column;
+justify-items: center;
+align-items: center;}
+
+.languages1 {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 500px;
+    background-color: rgba(190, 138, 94, 0.55);
+border: 2px solid black;}
+
+.title { 
 display: inline;
 color: #ffedbc;
 font-size: 40px;
 position:relative; 
 bottom:15px;
 }
+.back {align-self: start;}
 
 h2 {
 display:inline;
@@ -35,15 +52,11 @@ bottom: 20px;
 font-size: 65px;
 color: #ffedbc;
 }
-.footer{display:block}
+.footer {display: inline;
+    align-items: center;
+justify-content: center;}
 
-.languages1 {
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    flex-direction: column;
-   
-} 
+
 h1{
     text-align: center;
 width: 250px;
@@ -51,12 +64,6 @@ font-size:  25px;
 font-weight: 800; 
 color: #f9bc60; 
 border: solid 2px #f9bc60;
-background-color: #3f3e3d;}
-.languages1 p  {
-display: flex;
-text-align: center;
-align-items: center;
-justify-content: center; 
-width: 500px;
-background-color: #be8a5e;} 
+background-color: #3f3e3d;} */
+
 

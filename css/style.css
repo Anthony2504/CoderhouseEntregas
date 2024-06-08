@@ -1,9 +1,12 @@
+
 body {padding: 0;
     margin: 0;
     box-sizing: border-box;
-        background-image: linear-gradient(180deg, rgb(255, 136, 0), rgb(212, 212, 179));
-    background-size: cover;
-}
+    background-image: linear-gradient(180deg, rgb(248, 165, 69), rgb(212, 212, 179));
+    background-size: cover;}
+
+@media (max-width: 480px) {body 
+    {background-color: aqua;}}
 
 .section1 {display: grid;
     grid-template-areas: 
@@ -12,12 +15,12 @@ body {padding: 0;
     grid-template-rows:450px;
     border: 2px solid #ffedbc;}
 
+
 .imagen1 {
 grid-area: imagen1;
 justify-self: center;
 align-self: center;
 width: 580px;
-border: 2px solid #ffedbc;
 }
 .slogan {
     grid-area: slogan;
@@ -101,7 +104,7 @@ color: #ffedbc;
 .section4 {display: grid;
 grid-template-areas: "link1 link2 link3 link4";
 grid-template-columns: 500px;
-grid-template-rows: 500px;
+grid-template-rows: 150px;
 color: #f9bc60; 
 background-color: #3f3e3d
 }
@@ -138,6 +141,7 @@ background-color: #3f3e3d
     color: #f9bc60; 
     background-color: #3f3e3d
 }
-    .footer {display: inline;
-    align-items: center;
-justify-content: center;}
+    .footer {
+display: flex;
+justify-content: space-evenly;
+}
