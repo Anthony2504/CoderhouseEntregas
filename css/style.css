@@ -5,14 +5,12 @@ body {padding: 0;
     background-image: linear-gradient(180deg, rgb(248, 165, 69), rgb(212, 212, 179));
     background-size: cover;}
 
-@media (max-width: 480px) {body 
-    {background-color: aqua;}}
 
 .section1 {display: grid;
     grid-template-areas: 
     "imagen1 slogan ul1";
     grid-template-columns:600px 600px 600px;
-    grid-template-rows:450px;
+    grid-template-rows:300px;
     border: 2px solid #ffedbc;}
 
 
@@ -20,15 +18,15 @@ body {padding: 0;
 grid-area: imagen1;
 justify-self: center;
 align-self: center;
-width: 580px;
+width: 400px;
 }
+
 .slogan {
     grid-area: slogan;
     align-self: center;
     justify-self: center;
-    background-color: #8B5D33;
-    color: #f9bc60;
-    font-size: 35px;
+    color: #4d3107;
+    font-size: 60px;
     text-align: center;
 }
 
@@ -48,8 +46,8 @@ background-color: #3f3e3d;
 .link1:hover {background-color: #0a0a0a;}
 
 .boton1 {
-    margin-bottom: 275px;
-    margin-left: 430px;
+    margin-bottom: 170px;
+    margin-left: 210px;
     width: 150px;
     height: 50px;
     background-color: #ffedbc;
@@ -145,3 +143,5 @@ background-color: #3f3e3d
 display: flex;
 justify-content: space-evenly;
 }
+
+.redes {height: 20px;}
