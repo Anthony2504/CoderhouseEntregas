@@ -2,6 +2,7 @@ body {padding: 0;
     margin: 0;
     box-sizing: border-box;  
 background-image: url(../Assets/wallpaperflare.com_wallpaper.jpg);
+background-size: cover;
 }
 header {
 display: flex;
@@ -12,7 +13,7 @@ border-right: solid 2px rgb(124, 103, 103);
 border-left: solid 2px rgb(124, 103, 103);;
 }
 
-a { 
+/*a { 
 display: inline;
 color: #ffedbc;
 font-size: 30px;
@@ -20,6 +21,7 @@ position:relative;
 top:20px;
 right: 250px;
  }
+*/
 h1 { 
 display: inline;
 color: #ffedbc;
@@ -135,4 +137,11 @@ form {
     background-color: #3f3e3d;
     }
 
-
+.footer {
+    margin: 1px 3px;
+font-size: 30px;
+color: #f9bc60; 
+background-color: #3f3e3d;
+    display: flex;
+    justify-content: space-evenly;
+        }
