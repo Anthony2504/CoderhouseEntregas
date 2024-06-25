@@ -1,0 +1,45 @@
+body {padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(../assets/wallpaperflare.com_wallpaper.jpg); 
+     background-size: cover;}
+
+$color-primario:#ffedbc;
+$color-secundario: rgba(82, 60, 42, 0.55);
+$title-size: 30px;
+
+p {color: $color-primario;
+background-color: $color-secundario;
+font-size: 20px;}
+
+.courses1 {display: grid;
+    grid-template-columns: 500px 500px 500px;
+    grid-template-rows: 500px 500px;
+grid-gap: 20px;
+justify-content: center;
+align-content: space-evenly;}
+
+h1 {color: $color-primario;
+font-size: $title-size;}
+
+.pictures {display: grid;
+grid-template-columns: 500px 500px 500px 500px;
+align-items: center;
+}
+
+.imgcourses {
+    width: 500px;
+}
+.enrolmentsection { display: grid;
+    grid-template-rows: 100px 300px;
+    align-items: center;
+font-size: $title-size;
+background-color: $color-secundario;
+justify-content: center;}
+
+.enrolment {align-self:start;}
+
+form {border: 2px $color-secundario solid;
+    padding: 10px;
+    text-align: center;
+justify-self: center;}
