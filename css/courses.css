@@ -2,7 +2,7 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-image: url(../assets/wallpaperflare.com_wallpaper.jpg);
+  background-image: url(../assets/background.jpg);
   background-size: cover;
 }
 
@@ -44,6 +44,7 @@ div {
 h1 {
   color: #ffedbc;
   font-size: 30px;
+  text-align: center;
 }
 
 .pictures {
@@ -74,4 +75,6 @@ form {
   padding: 10px;
   text-align: center;
   justify-self: center;
-}/*# sourceMappingURL=courses.css.map */
+}
+
+/*# sourceMappingURL=courses.css.map */

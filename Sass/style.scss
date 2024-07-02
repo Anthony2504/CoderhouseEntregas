@@ -1,0 +1,157 @@
+@use "variablescolor";
+
+body {padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(../assets/background.jpg); 
+     background-size: cover;}
+
+
+.section1 {display: grid;
+    grid-template-areas: 
+    "imagen1 slogan ul1";
+    grid-template-columns:600px 600px 700px;
+    grid-template-rows:110px;
+    border: variablescolor.$Borders;
+    background-color: variablescolor.$colorfondo;
+position: fixed;}
+
+
+
+.imagen1 {
+grid-area: imagen1;
+justify-self: start;
+align-self: start;
+width: 300px;
+height: 100px; 
+}
+
+.slogan {
+    grid-area: slogan;
+    align-self: center;
+    justify-self: center;
+    color: variablescolor.$colortexto;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.ul1 {
+grid-area: ul1;
+justify-self:right ;
+align-content:center;
+padding: 1px 20px;
+}
+
+.link1 {
+margin: 1px 3px;
+font-size: 30px;
+color: #f9bc60; 
+}
+
+a:hover {background-color: variablescolor.$hovercolor;}
+
+
+.section2{
+    display: grid;
+    grid-template-areas: 
+    "section2 section2 section2";
+    grid-template-columns: 600px 600px 600px;
+grid-template-rows: 600px;
+}
+.section2v {
+    grid-area: section2;
+    justify-self: center;
+    align-self: center;
+    width: 1600px;
+    margin-top: 300px;
+}
+.transition { display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 170px;
+background-color: variablescolor.$colorfondo;}
+
+.transitiontext1, .transitiontext2, .transitiontext3 {font-size: 65px;
+text-align: center;
+border:variablescolor.$Borders;}
+
+
+.section3 {display: grid;
+grid-template-areas: "imagensection31 imagensection32 imagensection33";
+grid-template-columns: 600px 600px 600px;
+grid-template-rows: 1000px;
+justify-content: space-evenly;
+align-content: center;
+margin-top: 10px;
+}
+
+.imagensection31 {
+    grid-area: imagensection31;
+    justify-self:center;
+    align-self: center;
+}
+.imagensection32{
+    grid-area: imagensection32;
+    justify-self:center;
+    align-self: center;
+}
+.imagensection33{
+    grid-area: imagensection33;
+    justify-self:center;
+    align-self: center;
+}
+
+h2 {
+bottom: 20px; 
+font-size: 65px;
+color: #ffedbc;
+}
+
+.section4 {display: grid;
+grid-template-areas: "link1 link2 link3 link4";
+grid-template-columns: 500px;
+grid-template-rows: 150px;
+color: #f9bc60; 
+background-color: #3f3e3d
+}
+
+.link21 {grid-area: link1;
+    align-self: center;
+    justify-self: center;
+    margin: 1px 3px;
+font-size: 30px;
+color: #f9bc60; 
+background-color: #3f3e3d
+}
+.link22 {grid-area: link2;
+    align-self: center;
+    justify-self: center;
+    margin: 1px 3px;
+    font-size: 30px;
+    color: #f9bc60; 
+    background-color: #3f3e3d
+}
+.link23 { grid-area: link3;
+    align-self: center;
+    justify-self: center;
+    margin: 1px 3px;
+    font-size: 30px;
+    color: #f9bc60; 
+    background-color: #3f3e3d
+}
+.link24 { grid-area: link4;
+    align-self: center;
+    justify-self: center;
+    margin: 1px 3px;
+    font-size: 30px;
+    color: #f9bc60; 
+    background-color: #3f3e3d
+}
+    .footer {
+display: flex;
+justify-content: space-evenly;
+}
+
+.redes {height: 20px;}

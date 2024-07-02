@@ -1,69 +1,81 @@
-body {padding: 0;
-    margin: 0;
-    box-sizing: border-box;  
-background-image: url(../Assets/wallpaperflare.com_wallpaper.jpg);
-background-size: cover;
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-image: url(../assets/background.jpg);
+  background-size: cover;
 }
+
 header {
-display: flex;
-flex-direction: column;
-align-items: center;
-background: linear-gradient(to left, #be8a5e, #8B5D33); 
-border-top: solid 2px rgb(124, 103, 103);
-border-right: solid 2px rgb(124, 103, 103);
-border-left: solid 2px rgb(124, 103, 103);;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to left, #be8a5e, #8B5D33);
+  border-top: solid 2px rgb(124, 103, 103);
+  border-right: solid 2px rgb(124, 103, 103);
+  border-left: solid 2px rgb(124, 103, 103);
 }
 
 .back {
-    margin: 1px 3px;
-    font-size: 30px;
-    color: #f9bc60; 
-    background-color: #3f3e3d
+  margin: 1px 3px;
+  font-size: 30px;
+  color: #f9bc60;
+  background-color: #3f3e3d;
 }
-.section1 {display: flex;
-    flex-direction: column;
-justify-items: center;
-align-items: center;}
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
 
 .languages1 {
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    width: 500px;
-    background-color: rgba(190, 138, 94, 0.55);
-border: 2px solid black;}
-
-.title { 
-display: inline;
-color: #ffedbc;
-font-size: 40px;
-position:relative; 
-bottom:15px;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 500px;
+  background-color: rgba(190, 138, 94, 0.55);
+  border: 2px solid black;
 }
-.back {align-self: start;}
+
+.title {
+  display: inline;
+  color: #ffedbc;
+  font-size: 40px;
+  position: relative;
+  bottom: 15px;
+}
+
+.back {
+  align-self: start;
+}
 
 h2 {
-display:inline;
-position: relative; 
-bottom: 20px; 
-font-size: 65px;
-color: #ffedbc;
+  display: inline;
+  position: relative;
+  bottom: 20px;
+  font-size: 65px;
+  color: #ffedbc;
 }
-.footer {display: inline;
-    align-items: center;
-justify-content: center;}
 
+.footer {
+  display: inline;
+  align-items: center;
+  justify-content: center;
+}
 
-h1{
-    text-align: center;
-width: 250px;
-font-size:  25px; 
-font-weight: 800; 
-color: #f9bc60; 
-border: solid 2px #f9bc60;
-background-color: #3f3e3d;} */
+h1 {
+  text-align: center;
+  width: 250px;
+  font-size: 25px;
+  font-weight: 800;
+  color: #f9bc60;
+  border: solid 2px #f9bc60;
+  background-color: #3f3e3d;
+}
 
-
+/*# sourceMappingURL=languages.css.map */
