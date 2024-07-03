@@ -1,4 +1,6 @@
 @use "variablescolor";
+@use "mixinflexbox";
+@use "mixinfooter";
 
 body {padding:0;
     margin:0;
@@ -9,11 +11,9 @@ body {padding:0;
     header {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    background: linear-gradient(to left, #be8a5e, #8B5D33); 
-    border-top: solid 2px rgb(124, 103, 103);
-    border-right: solid 2px rgb(124, 103, 103);
-    border-left: solid 2px rgb(124, 103, 103);;
+    align-items: start;
+    background: variablescolor.$colorfondo; 
+    border-top: variablescolor.$Borders;
     }
     
     .back {
@@ -25,24 +25,25 @@ body {padding:0;
     .section1 {display: flex;
         flex-direction: column;
     justify-items: center;
-    align-items: center;}
+    align-items: center;
+margin-top: 25px;
+margin-bottom: 25px; }
+
+    .section1 { @include mixinflexbox.flexcenter;}
     
     .languages1 {
-        align-items: center;
-        display: flex;
+        @include mixinflexbox.flexcenter;
+        text-align: center;        
         flex-wrap: wrap;
         flex-direction: column;
-        text-align: center;
-        align-items: center;
         width: 500px;
         background-color: rgba(190, 138, 94, 0.55);
     border: 2px solid black;}
     
     .title { 
-    display: inline;
-    color: #ffedbc;
+        @include mixinflexbox.flexcenter;
+    color: variablescolor.$colortexto ;
     font-size: 40px;
-    position:relative; 
     bottom:15px;
     }
     .back {align-self: start;}
@@ -54,9 +55,7 @@ body {padding:0;
     font-size: 65px;
     color: #ffedbc;
     }
-    .footer {display: inline;
-        align-items: center;
-    justify-content: center;}
+    .footer {@include mixinfooter.footerformat;}
     
     
     h1{

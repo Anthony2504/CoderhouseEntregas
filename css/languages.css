@@ -9,11 +9,9 @@ body {
 header {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  background: linear-gradient(to left, #be8a5e, #8B5D33);
-  border-top: solid 2px rgb(124, 103, 103);
-  border-right: solid 2px rgb(124, 103, 103);
-  border-left: solid 2px rgb(124, 103, 103);
+  align-items: start;
+  background: #ad9b90;
+  border-top: 2px solid #ffedbc;
 }
 
 .back {
@@ -28,25 +26,34 @@ header {
   flex-direction: column;
   justify-items: center;
   align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.section1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .languages1 {
-  align-items: center;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   flex-wrap: wrap;
   flex-direction: column;
-  text-align: center;
-  align-items: center;
   width: 500px;
   background-color: rgba(190, 138, 94, 0.55);
   border: 2px solid black;
 }
 
 .title {
-  display: inline;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #ffedbc;
   font-size: 40px;
-  position: relative;
   bottom: 15px;
 }
 
@@ -63,9 +70,8 @@ h2 {
 }
 
 .footer {
-  display: inline;
-  align-items: center;
-  justify-content: center;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 h1 {
